@@ -1,0 +1,38 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 .header-section-number {
+  display: block;
+  text-transform: none;
+}
+
+/* Style for index page */
+.sub-section {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#gioi-thieu h1 {
+  text-align: left;
+  text-transform: none;  
+}
+
+.sub-chapter-list {
+  margin-left: 20px;
+}

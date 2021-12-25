@@ -1,0 +1,20 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      collapse: section
+      scroll_highlight: true    
+      before: |
+        <li><center><a href="./"><center><img src="images/favicon-32x32.png" width="32px"/></center>Kinh Địa Tạng Bồ Tát Bổn Nguyện</a></center></li>
+      after: |
+        <li><center><a href="https://phapduyen.github.io/" target="blank">Kết Nối Pháp Duyên</a></center></li>        
+    download: ["epub", "pdf"]
+    sharing:
+      facebook: false
+      twitter: false
+    info: false
+    search:
+      engine: fuse
+  includes:
+    in_header: "header.html"
+# bookdown::epub_book: default
