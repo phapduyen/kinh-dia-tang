@@ -8,8 +8,8 @@ output:
     config:
       fontsettings:
         theme: night
-        family: sans
-        size: 3
+        family: serif
+        size: 4
 documentclass: book
 biblio-style: apalike
 link-citations: yes
