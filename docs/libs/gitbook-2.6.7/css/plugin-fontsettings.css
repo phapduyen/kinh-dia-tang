@@ -112,6 +112,14 @@ div.book.color-theme-2 {
   font-size: 3.6rem;
 }
 
+.book.font-size-13 .book-body .page-inner section {
+  font-size: 3.8rem;
+}
+
+.book.font-size-14 .book-body .page-inner section {
+  font-size: 4.0rem;
+}
+
 .book.font-family-0 {
   font-family: "Crimson Pro", Georgia, serif;
 }
