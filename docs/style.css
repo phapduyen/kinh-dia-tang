@@ -19,27 +19,65 @@ pre code {
 
 h1 {
   text-align: center;
-  text-transform: uppercase;
 }
 
 h2, h3, h4, h5, h6 {
   text-align: left;
 }
 
-h1 .header-section-number {
-  display: block;
-  text-transform: none;
+p.author {
+  text-indent: 0;
+  text-align: center;
+  font-style: italic;
 }
 
 #header img {
   display: block;
   margin: auto;
-  margin-bottom: 2em;
+  margin-bottom: 2em;  
 }
 
-.author {
+.align-right {
+  text-align: right;
+}
+
+.align-center {
   text-align: center;
 }
+
+p {
+  text-indent: 1.2em;
+}
+
+blockquote p, li p {
+  text-indent: 0
+}
+
+.align-right blockquote {
+  border-left: 0 !important;
+}
+
+.align-center blockquote {
+  border-left: 0 !important;
+};
+
+/* PART in menu */
+
+.book.color-theme-1 .book-summary ul.summary li.part span {
+  border-top: 1px solid #7e888b;
+}
+
+.book.color-theme-2 .book-summary ul.summary li.part span {
+  border-top: 1px solid #1C1F2B;
+}
+
+
+h1 .header-section-number {
+  display: block;
+  text-transform: none;
+}
+
+
 
 #muc-luc h1 {
   text-align: left;
@@ -47,5 +85,6 @@ h1 .header-section-number {
 }
 
 .sub-chapter-list {
-  margin-left: 20px;
+  text-indent: 0;  
+  margin-left: 2.5em;
 }
